@@ -174,9 +174,9 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 0.5rem;
-            height: 44px;
-            padding: 0 1.25rem;
+            gap: 0.625rem;
+            min-height: 52px; /* Mengganti height kaku menjadi min-height agar tombol lebih fleksibel */
+            padding: 0.875rem 1.5rem; /* Menambahkan padding atas-bawah (14px) agar ruang hijau lebih luas & proporsional */
             border-radius: var(--radius-md);
             font-weight: 600;
             font-size: 0.9375rem;
@@ -185,7 +185,7 @@
             transition: var(--transition-base);
             border: 1px solid transparent;
             text-align: center;
-            white-space: nowrap;
+            white-space: normal; /* Memastikan teks panjang pada tombol dapat menyesuaikan diri dengan rapi */
             max-width: 100%;
         }
 
@@ -273,6 +273,13 @@
             height: 72px;
             gap: 1.5rem;
             width: 100%;
+        }
+
+        /* Khusus tombol WA di Navbar agar ukurannya tetap ringkas & pas dengan tinggi header */
+        .navbar .btn-wa {
+            min-height: 40px;
+            padding: 0 1rem;
+            font-size: 0.875rem;
         }
 
         .brand {
