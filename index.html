@@ -1,0 +1,1924 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>IDRIS JAYA - Supplier Biomassa, Sekam & Pasir Silika Banyumas</title>
+    <meta name="description" content="Pemasok terpercaya bahan baku biomassa, sekam padi, serbuk kayu, wood pellet, dan pasir silika industri di Banyumas. Layanan B2B & B2C skala kecil hingga industri.">
+    <meta name="keywords" content="IDRIS JAYA, biomassa Banyumas, serbuk kayu, wood pellet, sekam padi, merang padi, pasir silika, supplier biomassa Jawa Tengah">
+    <meta name="author" content="IDRIS JAYA">
+    <link rel="canonical" href="https://idrisjaya.netlify.app">
+
+    <!-- Favicon Logo IJ -->
+    <link rel="icon" type="image/png" href="images/logo-ij.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://idrisjaya.netlify.app">
+    <meta property="og:title" content="IDRIS JAYA - Supplier Biomassa, Sekam & Pasir Silika Banyumas">
+    <meta property="og:description" content="Pemasok terpercaya bahan baku biomassa, sekam padi, serbuk kayu, wood pellet, dan pasir silika industri di Banyumas.">
+    <meta property="og:image" content="https://idrisjaya.netlify.app/images/truk.jpg">
+
+    <!-- Schema.org JSON-LD LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "IDRIS JAYA",
+      "image": "https://idrisjaya.netlify.app/images/truk.jpg",
+      "telephone": "+6282226378960",
+      "url": "https://idrisjaya.netlify.app",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gentawangi RT 05 RW 03, Kecamatan Jatilawang",
+        "addressLocality": "Banyumas",
+        "addressRegion": "Jawa Tengah",
+        "postalCode": "53174",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-7.5386",
+        "longitude": "109.1378"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "$$"
+    }
+    </script>
+
+    <style>
+        /* ==========================================================================
+           1. DESIGN SYSTEM & BASE STYLES
+           ========================================================================== */
+        :root {
+            --primary: #4A2E1A;          /* Premium Deep Walnut Brown */
+            --primary-hover: #362112;    /* Darker Shade for Interactive State */
+            --secondary: #7A4E32;        /* Refined Medium Earth Brown */
+            --accent: #B88A58;           /* Subtle Warm Gold Accent */
+            --accent-light: #EFE6DD;     /* Soft Tinted Background Accent */
+            
+            --bg-main: #FBF9F5;          /* Crisp Warm Off-White */
+            --bg-sec: #F3ECE6;           /* Soft Muted Sand Background */
+            --bg-card: #FFFFFF;          /* Pure White for Surface Contrast */
+            
+            --text-main: #1F1915;        /* High Contrast Charcoal Brown */
+            --text-muted: #574D45;       /* Muted Body Text */
+            --text-light: #82756C;       /* Secondary Muted Details */
+            --white: #FFFFFF;
+            
+            --border-subtle: rgba(74, 46, 26, 0.08);
+            --border-medium: rgba(74, 46, 26, 0.16);
+            
+            --shadow-sm: 0 1px 2px rgba(31, 25, 21, 0.04);
+            --shadow-md: 0 4px 12px rgba(31, 25, 21, 0.06);
+            --shadow-lg: 0 12px 28px -4px rgba(31, 25, 21, 0.08);
+
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-full: 9999px;
+            
+            --transition-fast: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+            --transition-base: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+            
+            --max-width: 1200px;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 90px; /* Offset tinggi navbar agar anchor tidak tertutup */
+            font-size: 16px;
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            width: 100%;
+            position: relative;
+            overflow-x: hidden;
+            padding-top: 72px; /* Menjaga tata letak Hero Section saat navbar fixed */
+        }
+
+        /* Rule Teks Multiline & Dynamic Auto-Wrap */
+        h1, h2, h3, h4, h5, h6, p, a, span, li, div {
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            word-break: break-word;
+            white-space: normal;
+            max-width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .icon-svg {
+            display: inline-block;
+            width: 1.25rem;
+            height: 1.25rem;
+            stroke-width: 2;
+            stroke: currentColor;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            vertical-align: middle;
+            flex-shrink: 0;
+        }
+
+        /* ==========================================================================
+           2. BUTTONS & BADGES
+           ========================================================================== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            height: 44px;
+            padding: 0 1.25rem;
+            border-radius: var(--radius-md);
+            font-weight: 600;
+            font-size: 0.9375rem;
+            letter-spacing: -0.01em;
+            cursor: pointer;
+            transition: var(--transition-base);
+            border: 1px solid transparent;
+            text-align: center;
+            white-space: nowrap;
+            max-width: 100%;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--white);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--primary);
+            border-color: var(--border-medium);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(74, 46, 26, 0.04);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .btn-wa {
+            background-color: #16A34A;
+            color: var(--white);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-wa:hover {
+            background-color: #15803D;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.375rem 0.875rem;
+            background-color: var(--accent-light);
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.8125rem;
+            border-radius: var(--radius-full);
+            letter-spacing: 0.01em;
+            border: 1px solid rgba(184, 138, 88, 0.2);
+            max-width: 100%;
+        }
+
+        .badge-dot {
+            width: 7px;
+            height: 7px;
+            background-color: #16A34A;
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.2);
+            flex-shrink: 0;
+        }
+
+        /* ==========================================================================
+           3. NAVBAR (PERMANENT FIXED HEADER)
+           ========================================================================== */
+        .header {
+            position: fixed; /* Fixed permanen agar selalu terlihat saat di-scroll */
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(251, 249, 245, 0.98);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            z-index: 10000;
+            border-bottom: 1px solid var(--border-subtle);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            gap: 1.5rem;
+            width: 100%;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-shrink: 0;
+            min-width: 0;
+        }
+
+        .brand-logo {
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 0;
+        }
+
+        .brand-name {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            white-space: nowrap;
+        }
+
+        .brand-tagline {
+            font-size: 0.6875rem;
+            color: var(--secondary);
+            font-weight: 600;
+            margin-top: 1px;
+            letter-spacing: 0.01em;
+            white-space: nowrap;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.75rem;
+            margin: 0 auto;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+            color: var(--text-muted);
+            transition: var(--transition-fast);
+            font-size: 0.9375rem;
+            padding: 0.25rem 0;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background-color: var(--primary);
+            transition: var(--transition-fast);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 6px;
+            border-radius: var(--radius-sm);
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        .hamburger span {
+            width: 22px;
+            height: 2px;
+            background-color: var(--primary);
+            transition: var(--transition-base);
+            border-radius: 1px;
+            display: block;
+        }
+
+        /* Hamburger Active State */
+        .hamburger.active span:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        /* ==========================================================================
+           4. HERO SECTION
+           ========================================================================== */
+        .hero {
+            padding: 4rem 0 5rem;
+            background: linear-gradient(180deg, var(--bg-main) 0%, var(--bg-sec) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+            width: 100%;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 3.5rem;
+            align-items: center;
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            max-width: 100%;
+        }
+
+        .hero-title {
+            font-size: 2.625rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.2;
+            letter-spacing: -0.03em;
+        }
+
+        .hero-title span {
+            color: var(--secondary);
+            display: inline-block;
+        }
+
+        .hero-desc {
+            font-size: 1.0625rem;
+            color: var(--text-muted);
+            line-height: 1.65;
+            max-width: 580px;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            padding-top: 0.5rem;
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border-subtle);
+            background-color: var(--bg-sec);
+            width: 100%;
+        }
+
+        .hero-image-wrapper img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* ==========================================================================
+           5. SECTION GENERAL STYLES
+           ========================================================================== */
+        .section {
+            padding: 5.5rem 0;
+            width: 100%;
+        }
+
+        .section-bg {
+            background-color: var(--bg-sec);
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 3.5rem;
+            padding: 0 1rem;
+        }
+
+        .section-subtitle {
+            font-size: 0.8125rem;
+            font-weight: 700;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.75rem;
+        }
+
+        .section-title {
+            font-size: 2.125rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.25;
+            letter-spacing: -0.02em;
+        }
+
+        /* ==========================================================================
+           6. 3 PILAR KEUNGGULAN
+           ========================================================================== */
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            width: 100%;
+        }
+
+        .pillar-card {
+            background-color: var(--bg-card);
+            padding: 2.25rem 1.75rem;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-subtle);
+            transition: var(--transition-base);
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            height: 100%;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            border-color: rgba(74, 46, 26, 0.2);
+        }
+
+        .pillar-icon {
+            width: 48px;
+            height: 48px;
+            background-color: var(--accent-light);
+            color: var(--primary);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .pillar-title {
+            font-size: 1.1875rem;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: -0.01em;
+        }
+
+        .pillar-desc {
+            color: var(--text-muted);
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+
+        /* ==========================================================================
+           7. KATALOG PRODUK
+           ========================================================================== */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            width: 100%;
+        }
+
+        .product-card {
+            background-color: var(--bg-card);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-subtle);
+            transition: var(--transition-base);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .product-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            border-color: rgba(74, 46, 26, 0.2);
+        }
+
+        .product-img-wrapper {
+            width: 100%;
+            aspect-ratio: 16 / 10;
+            overflow: hidden;
+            background-color: var(--bg-sec);
+            position: relative;
+        }
+
+        .product-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-base);
+        }
+
+        .product-card:hover .product-img-wrapper img {
+            transform: scale(1.02);
+        }
+
+        .product-content {
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            gap: 1.25rem;
+        }
+
+        .product-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: -0.01em;
+            line-height: 1.3;
+        }
+
+        .product-desc {
+            color: var(--text-muted);
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+
+        .product-app {
+            background-color: var(--bg-main);
+            padding: 1rem;
+            border-radius: var(--radius-md);
+            font-size: 0.875rem;
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            margin-top: auto;
+        }
+
+        .product-app-title {
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.25rem;
+            font-size: 0.8125rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .product-action {
+            padding-top: 0.5rem;
+        }
+
+        .product-action .btn {
+            width: 100%;
+        }
+
+        /* ==========================================================================
+           8. STANDAR MUTU KADAR AIR
+           ========================================================================== */
+        .quality-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3.5rem;
+            align-items: center;
+            background-color: var(--bg-card);
+            border-radius: var(--radius-lg);
+            padding: 3.25rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-subtle);
+            width: 100%;
+        }
+
+        .quality-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .quality-desc {
+            color: var(--text-muted);
+            font-size: 0.96875rem;
+            line-height: 1.65;
+        }
+
+        .quality-img-wrapper {
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-subtle);
+            width: 100%;
+        }
+
+        .quality-img-wrapper img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .quality-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background-color: var(--bg-sec);
+            border: 1px solid var(--border-medium);
+            color: var(--primary);
+            font-size: 1.125rem;
+            font-weight: 800;
+            padding: 0.75rem 1.25rem;
+            border-radius: var(--radius-md);
+            width: fit-content;
+            margin-top: 0.25rem;
+            max-width: 100%;
+        }
+
+        /* ==========================================================================
+           9. GALERI & LIGHTBOX COMPONENT STYLES
+           ========================================================================== */
+        .gallery-filter-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .gallery-filter-btn {
+            background-color: var(--bg-card);
+            color: var(--text-muted);
+            border: 1px solid var(--border-medium);
+            padding: 0.5rem 1.25rem;
+            border-radius: var(--radius-full);
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-fast);
+        }
+
+        .gallery-filter-btn:hover,
+        .gallery-filter-btn.active {
+            background-color: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+        }
+
+        .gallery-card {
+            background-color: var(--bg-card);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            border: 1px solid var(--border-subtle);
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition-base);
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .gallery-card.hide {
+            display: none;
+        }
+
+        .gallery-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: rgba(74, 46, 26, 0.2);
+        }
+
+        .gallery-img-wrapper {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            overflow: hidden;
+            cursor: pointer;
+            background-color: var(--bg-sec);
+        }
+
+        .gallery-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .gallery-card:hover .gallery-img-wrapper img {
+            transform: scale(1.05);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(31, 25, 21, 0) 40%, rgba(31, 25, 21, 0.85) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 1.25rem;
+            opacity: 0.9;
+            transition: var(--transition-fast);
+        }
+
+        .gallery-category-tag {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.25rem;
+        }
+
+        .gallery-card-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--white);
+            line-height: 1.3;
+        }
+
+        /* Lightbox Preview Modal */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            background-color: rgba(15, 12, 9, 0.92);
+            backdrop-filter: blur(8px);
+            z-index: 20000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            padding: 1.5rem;
+        }
+
+        .lightbox.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .lightbox-content {
+            position: relative;
+            max-width: 900px;
+            width: 100%;
+            max-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .lightbox-content img {
+            max-width: 100%;
+            max-height: 75vh;
+            object-fit: contain;
+            border-radius: var(--radius-sm);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+
+        .lightbox-caption {
+            color: var(--white);
+            margin-top: 1rem;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 2.5rem;
+            cursor: pointer;
+            line-height: 1;
+            z-index: 20001;
+            transition: var(--transition-fast);
+        }
+
+        .lightbox-close:hover {
+            color: var(--accent);
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 1.5rem;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition-fast);
+            z-index: 20001;
+        }
+
+        .lightbox-nav:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+
+        .lightbox-prev { left: 1.5rem; }
+        .lightbox-next { right: 1.5rem; }
+
+        /* ==========================================================================
+           10. KONTAK & LOKASI
+           ========================================================================== */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 3.5rem;
+            width: 100%;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1.75rem;
+            width: 100%;
+        }
+
+        .info-item {
+            display: flex;
+            gap: 1.25rem;
+            align-items: flex-start;
+            width: 100%;
+        }
+
+        .info-icon {
+            width: 44px;
+            height: 44px;
+            background-color: var(--accent-light);
+            color: var(--primary);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .info-text {
+            flex-grow: 1;
+            min-width: 0;
+        }
+
+        .info-text h4 {
+            font-size: 1.0625rem;
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            letter-spacing: -0.01em;
+        }
+
+        .info-text p, .info-text a {
+            color: var(--text-muted);
+            font-size: 0.9375rem;
+            line-height: 1.5;
+        }
+
+        .info-text a {
+            transition: var(--transition-fast);
+        }
+
+        .info-text a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        .location-card {
+            background-color: var(--bg-card);
+            padding: 2.25rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-subtle);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 2rem;
+            width: 100%;
+        }
+
+        .owner-box {
+            background-color: var(--bg-main);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .owner-box h3 {
+            color: var(--primary);
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.01em;
+        }
+
+        .owner-box p {
+            color: var(--text-muted);
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+
+        /* ==========================================================================
+           11. FLOATING WHATSAPP BUTTON
+           ========================================================================== */
+        .floating-wa-container {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+        }
+
+        .floating-wa-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            background-color: #16A34A;
+            color: var(--white);
+            padding: 0.875rem 1.375rem;
+            border-radius: var(--radius-full);
+            box-shadow: 0 8px 24px -4px rgba(22, 163, 74, 0.35);
+            transition: var(--transition-base);
+            font-weight: 600;
+            font-size: 0.875rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+        }
+
+        .floating-wa-btn:hover {
+            background-color: #15803D;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px -4px rgba(22, 163, 74, 0.45);
+        }
+
+        .wa-pulse-dot {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            width: 10px;
+            height: 10px;
+            background-color: #4ADE80;
+            border: 2px solid var(--white);
+            border-radius: 50%;
+        }
+
+        /* ==========================================================================
+           12. FOOTER
+           ========================================================================== */
+        .footer {
+            background-color: var(--primary);
+            color: var(--bg-sec);
+            padding: 4.5rem 0 2.5rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            width: 100%;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1.5fr;
+            gap: 3.5rem;
+            margin-bottom: 3.5rem;
+            width: 100%;
+        }
+
+        .footer-brand .brand-name {
+            color: var(--white);
+        }
+
+        .footer-brand .brand-tagline {
+            color: var(--accent);
+        }
+
+        .footer-desc {
+            margin-top: 1.25rem;
+            font-size: 0.9375rem;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.65;
+            max-width: 400px;
+        }
+
+        .footer-title {
+            color: var(--white);
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            letter-spacing: -0.01em;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.875rem;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.9375rem;
+            transition: var(--transition-fast);
+            width: fit-content;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+            opacity: 1;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        .footer-links span {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.9375rem;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.5);
+        }
+
+        /* ==========================================================================
+           13. RESPONSIVE BREAKPOINTS
+           ========================================================================== */
+        @media (max-width: 1024px) {
+            .nav-links {
+                gap: 1.25rem;
+            }
+            .nav-links a {
+                font-size: 0.875rem;
+            }
+            .hero-title {
+                font-size: 2.25rem;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .nav-links {
+                position: fixed;
+                top: 72px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 72px);
+                background-color: var(--bg-main);
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 2rem 1.5rem;
+                gap: 1.25rem;
+                transition: var(--transition-base);
+                border-top: 1px solid var(--border-subtle);
+                box-shadow: var(--shadow-lg);
+                overflow-y: auto;
+                margin: 0;
+            }
+
+            .nav-links.active {
+                left: 0;
+            }
+
+            .nav-links a {
+                font-size: 1.0625rem;
+                width: 100%;
+                padding: 0.75rem 0;
+                border-bottom: 1px solid var(--border-subtle);
+            }
+
+            .nav-links a::after {
+                display: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .hero-grid,
+            .quality-wrapper,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+
+            .pillars-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+
+            .quality-wrapper {
+                padding: 2.25rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .navbar {
+                gap: 0.5rem;
+            }
+
+            .brand {
+                gap: 0.5rem;
+            }
+
+            .brand-logo {
+                width: 32px;
+                height: 32px;
+            }
+
+            .brand-name {
+                font-size: 1.125rem;
+            }
+
+            .brand-tagline {
+                font-size: 0.625rem;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+
+            .section {
+                padding: 3.5rem 0;
+            }
+
+            .hero {
+                padding: 2.5rem 0 3.5rem;
+            }
+
+            .hero-title {
+                font-size: 1.875rem;
+            }
+
+            .section-title {
+                font-size: 1.625rem;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .quality-wrapper {
+                padding: 1.5rem;
+            }
+
+            .quality-img-wrapper img {
+                height: 240px;
+            }
+
+            .location-card {
+                padding: 1.5rem;
+            }
+
+            .floating-wa-container {
+                bottom: 1.25rem;
+                right: 1.25rem;
+            }
+
+            .floating-wa-btn span:last-child {
+                display: none;
+            }
+
+            .floating-wa-btn {
+                padding: 0.875rem;
+                border-radius: 50%;
+            }
+
+            .nav-cta .btn-wa span {
+                display: none;
+            }
+
+            .nav-cta .btn-wa {
+                padding: 0;
+                width: 38px;
+                height: 38px;
+                border-radius: var(--radius-md);
+            }
+
+            .lightbox-prev { left: 0.5rem; }
+            .lightbox-next { right: 0.5rem; }
+            .lightbox-nav { width: 40px; height: 40px; font-size: 1.2rem; }
+        }
+
+        @media (max-width: 360px) {
+            .brand-tagline {
+                display: none;
+            }
+            .hero-actions .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ==========================================================================
+         NAVBAR PERMANENT FIXED HEADER
+         ========================================================================== -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="#" class="brand">
+                <img src="images/logo-ij.png" alt="Logo IDRIS JAYA" class="brand-logo">
+                <div class="brand-text">
+                    <span class="brand-name">IDRIS JAYA</span>
+                    <span class="brand-tagline">Supplier Biomassa &amp; Material Tambang</span>
+                </div>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#keunggulan" onclick="closeMenu()">Keunggulan</a>
+                <a href="#produk" onclick="closeMenu()">Katalog Produk</a>
+                <a href="#mutu" onclick="closeMenu()">Standar Mutu</a>
+                <a href="#galeri" onclick="closeMenu()">Galeri</a>
+                <a href="#kontak" onclick="closeMenu()">Kontak &amp; Lokasi</a>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20mau%20tanya%20stok%20dan%20harga" class="btn btn-wa" target="_blank" rel="noopener" aria-label="Hubungi WhatsApp">
+                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span>Hubungi WA</span>
+                </a>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Menu Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==========================================================================
+             HERO SECTION
+             ========================================================================== -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div>
+                        <span class="badge">
+                            <span class="badge-dot"></span> 24 Jam Ready Stok
+                        </span>
+                    </div>
+                    <h1 class="hero-title">Pemasok Bahan Baku Biomassa &amp; Material Industri <span>Terpercaya</span></h1>
+                    <p class="hero-desc">Melayani kebutuhan skala B2B Industri &amp; B2C Ritel. Pasokan serbuk kayu, wood pellet, sekam padi, dan pasir silika berkualitas yang berasal dari mitra pemasok terpercaya.</p>
+                    <div class="hero-actions">
+                        <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20mau%20tanya%20stok%20dan%20harga" class="btn btn-primary" target="_blank" rel="noopener">
+                            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            <span>Hubungi Pak Idris</span>
+                        </a>
+                        <a href="#produk" class="btn btn-secondary">
+                            <span>Lihat Produk</span>
+                            <svg class="icon-svg" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/truk.jpg" alt="Armada Pengiriman IDRIS JAYA Logistik Truk Engkel dan Canter" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             3 PILAR KEUNGGULAN
+             ========================================================================== -->
+        <section class="section" id="keunggulan">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Mengapa Memilih Kami</div>
+                    <h2 class="section-title">Standar Pelayanan &amp; Keunggulan Utama</h2>
+                </div>
+
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg class="icon-svg" style="width:24px; height:24px;" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><polyline points="16 11 18 13 22 9"></polyline></svg>
+                        </div>
+                        <h3 class="pillar-title">Transaksi Direct Owner</h3>
+                        <p class="pillar-desc">Semua negosiasi harga, spesifikasi bahan, dan penjadwalan pengiriman ditangani langsung oleh Pak Idris tanpa perantara untuk kepastian pelayanan.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg class="icon-svg" style="width:24px; height:24px;" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                        </div>
+                        <h3 class="pillar-title">Layanan Logistik Terjadwal</h3>
+                        <p class="pillar-desc">Pengiriman didukung jaringan armada logistik yang disesuaikan dengan kebutuhan pengiriman (Truk Engkel &amp; Canter) siap kirim langsung ke lokasi Anda.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg class="icon-svg" style="width:24px; height:24px;" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        </div>
+                        <h3 class="pillar-title">Pasokan Fleksibel</h3>
+                        <p class="pillar-desc">Siap melayani pembelian eceran/ritel lokal hingga kontrak suplai rutin skala industri besar secara berkelanjutan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             KATALOG PRODUK
+             ========================================================================== -->
+        <section class="section section-bg" id="produk">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Katalog Bahan Baku</div>
+                    <h2 class="section-title">Produk Biomassa &amp; Material Tambang</h2>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Produk 1 -->
+                    <article class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="images/serbuk-kayu.jpg" alt="Serbuk Kayu & Hammermill" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Serbuk Kayu &amp; Hammermill</h3>
+                            <p class="product-desc">Serbuk kayu gilingan murni dengan tingkat kehalusan presisi, kering, dan bebas dari bahan kimia berbahaya.</p>
+                            <div class="product-app">
+                                <div class="product-app-title">Aplikasi Utama</div>
+                                Wood pellet, media tanam, alas peternakan, dan bahan bakar boiler industri.
+                            </div>
+                            <div class="product-action">
+                                <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20tertarik%20pesan%20Serbuk%20Kayu" class="btn btn-wa" target="_blank" rel="noopener">
+                                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    <span>Pesan via WA</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produk 2 -->
+                    <article class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="images/pelet.jpg" alt="Wood Pellet / Pelet Kayu" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Wood Pellet (Pelet Kayu)</h3>
+                            <p class="product-desc">Bahan bakar biomassa padat berkalori tinggi pengganti batu bara yang efisien dan ramah lingkungan.</p>
+                            <div class="product-app">
+                                <div class="product-app-title">Kemasan Standar</div>
+                                Karung Jumbo Bag untuk efisiensi bongkar muat alat berat skala pabrik.
+                            </div>
+                            <div class="product-action">
+                                <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20tertarik%20pesan%20Wood%20Pellet" class="btn btn-wa" target="_blank" rel="noopener">
+                                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    <span>Pesan via WA</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produk 3 -->
+                    <article class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="images/wood-chip.jpg" alt="Wood Chip / Tatal & Limbah Veneer" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Wood Chip &amp; Limbah Veneer</h3>
+                            <p class="product-desc">Serpihan kayu limbah veneer mentah dan tatal kayu olahan bermutu tinggi untuk pembakaran optimal.</p>
+                            <div class="product-app">
+                                <div class="product-app-title">Aplikasi Utama</div>
+                                Bahan bakar pembakaran skala besar pada PLTU dan pabrik manufaktur.
+                            </div>
+                            <div class="product-action">
+                                <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20tertarik%20pesan%20Wood%20Chip" class="btn btn-wa" target="_blank" rel="noopener">
+                                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    <span>Pesan via WA</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produk 4 -->
+                    <article class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="images/merang.jpg" alt="Merang Padi & Sekam Mentah" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Merang Padi &amp; Sekam Mentah</h3>
+                            <p class="product-desc">Merang padi bersih dan sekam mentah (ciper) hasil penggilingan padi lokal Banyumas.</p>
+                            <div class="product-app">
+                                <div class="product-app-title">Aplikasi Utama</div>
+                                Merang untuk media tanam jamur; Sekam mentah untuk pembakaran bata/genteng &amp; pertanian.
+                            </div>
+                            <div class="product-action">
+                                <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20tertarik%20pesan%20Merang/Sekam" class="btn btn-wa" target="_blank" rel="noopener">
+                                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    <span>Pesan via WA</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produk 5 -->
+                    <article class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="images/pasir-silika.jpg" alt="Pasir Silika & Barang Tambang" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Pasir Silika &amp; Barang Tambang</h3>
+                            <p class="product-desc">Pasir silika murni hasil tambang alami dengan kandungan kuarsa tinggi untuk kebutuhan industri.</p>
+                            <div class="product-app">
+                                <div class="product-app-title">Aplikasi Utama</div>
+                                Industri keramik, pabrik semen, dan sistem filtrasi air industri.
+                            </div>
+                            <div class="product-action">
+                                <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20tertarik%20pesan%20Pasir%20Silika" class="btn btn-wa" target="_blank" rel="noopener">
+                                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    <span>Pesan via WA</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             STANDAR MUTU KADAR AIR
+             ========================================================================== -->
+        <section class="section" id="mutu">
+            <div class="container">
+                <div class="quality-wrapper">
+                    <div class="quality-content">
+                        <div class="section-subtitle">Jaminan Kualitas Suplai</div>
+                        <h2 class="section-title">Pengujian Kadar Air Digital Presisi</h2>
+                        <p class="quality-desc">Kualitas biomassa sangat ditentukan oleh tingkat kelembaban bahan baku. Setiap pengiriman material di IDRIS JAYA dipastikan melalui pengujian terukur menggunakan alat digital Smart Sensor Moisture Meter.</p>
+                        <p class="quality-desc">Kami menjamin tingkat kelembaban standar sesuai permintaan spesifikasi kontrak Anda:</p>
+                        <div class="quality-badge">
+                            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path></svg>
+                            <span>14.0% – 30.0% MC</span>
+                        </div>
+                    </div>
+                    <div class="quality-img-wrapper">
+                        <img src="images/kadar-air.jpg" alt="Pengujian Kadar Air Biomassa dengan Smart Sensor Moisture Meter" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             SECTION GALERI DOKUMENTASI
+             ========================================================================== -->
+        <section class="section" id="galeri">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Dokumentasi Lapangan</div>
+                    <h2 class="section-title">Galeri Operasional &amp; Aktivitas IDRIS JAYA</h2>
+                    <p class="hero-desc" style="margin: 0.75rem auto 0; text-align: center; max-width: 620px;">
+                        Dokumentasi nyata kegiatan pengelolaan bahan baku biomassa, kualifikasi mutu kadar air, armada logistik, hingga aktivitas pengiriman ke lokasi industri.
+                    </p>
+                </div>
+
+                <!-- Filter Kategori Galeri -->
+                <div class="gallery-filter-wrapper">
+                    <button class="gallery-filter-btn active" data-filter="all">Semua Foto</button>
+                    <button class="gallery-filter-btn" data-filter="armada">Armada &amp; Logistik</button>
+                    <button class="gallery-filter-btn" data-filter="biomassa">Biomassa &amp; Bahan Baku</button>
+                    <button class="gallery-filter-btn" data-filter="mutu">Pengujian Mutu</button>
+                    <button class="gallery-filter-btn" data-filter="aktivitas">Aktivitas Lapangan</button>
+                </div>
+
+                <!-- Grid Galeri Foto -->
+                <div class="gallery-grid">
+                    <!-- Foto 1 -->
+                    <div class="gallery-card" data-category="biomassa">
+                        <div class="gallery-img-wrapper" onclick="openLightbox(0)">
+                            <img src="images/wood-pellet-jumbo-bag.jpg" alt="Wood Pellet Kemasan Jumbo Bag IDRIS JAYA" loading="lazy">
+                            <div class="gallery-overlay">
+                                <span class="gallery-category-tag">Biomassa</span>
+                                <h3 class="gallery-card-title">Wood Pellet Jumbo Bag</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foto 2 -->
+                    <div class="gallery-card" data-category="mutu">
+                        <div class="gallery-img-wrapper" onclick="openLightbox(1)">
+                            <img src="images/uji-kadar-air-digital.jpg" alt="Pengujian Kadar Air Biomassa Menggunakan Smart Sensor Moisture Meter" loading="lazy">
+                            <div class="gallery-overlay">
+                                <span class="gallery-category-tag">Pengujian Mutu</span>
+                                <h3 class="gallery-card-title">Pengujian Kadar Air Digital (MC 14%-30%)</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foto 3 -->
+                    <div class="gallery-card" data-category="armada">
+                        <div class="gallery-img-wrapper" onclick="openLightbox(2)">
+                            <img src="images/truk-di-pabrik.jpg" alt="Truk Pengiriman IDRIS JAYA di Area Pabrik Industri" loading="lazy">
+                            <div class="gallery-overlay">
+                                <span class="gallery-category-tag">Armada &amp; Logistik</span>
+                                <h3 class="gallery-card-title">Pengiriman Biomassa Skala Pabrik</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foto 4 -->
+                    <div class="gallery-card" data-category="biomassa">
+                        <div class="gallery-img-wrapper" onclick="openLightbox(3)">
+                            <img src="images/tempat-penampungan-sekam.jpg" alt="Tempat Penampungan Sekam Padi dan Merang" loading="lazy">
+                            <div class="gallery-overlay">
+                                <span class="gallery-category-tag">Biomassa</span>
+                                <h3 class="gallery-card-title">Penampungan Sekam &amp; Merang Padi</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foto 5 -->
+                    <div class="gallery-card" data-category="aktivitas">
+                        <div class="gallery-img-wrapper" onclick="openLightbox(4)">
+                            <img src="images/stok-serbuk-kayu-konveyor.jpg" alt="Pengolahan Stok Serbuk Kayu dengan Sistem Konveyor" loading="lazy">
+                            <div class="gallery-overlay">
+                                <span class="gallery-category-tag">Aktivitas Lapangan</span>
+                                <h3 class="gallery-card-title">Proses Pengolahan Serbuk Kayu</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foto 6 -->
+                    <div class="gallery-card" data-category="armada">
+                        <div class="gallery-img-wrapper" onclick="openLightbox(5)">
+                            <img src="images/pengiriman-limbah-kayu-veneer.jpg" alt="Pengiriman Limbah Kayu Veneer dan Wood Chip" loading="lazy">
+                            <div class="gallery-overlay">
+                                <span class="gallery-category-tag">Armada &amp; Logistik</span>
+                                <h3 class="gallery-card-title">Muatan Limbah Kayu Veneer</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foto 7 -->
+                    <div class="gallery-card" data-category="armada">
+                        <div class="gallery-img-wrapper" onclick="openLightbox(6)">
+                            <img src="images/armada-truk-muatan-penuh.jpg" alt="Armada Truk Canter Siap Distribusi Lintas Kota" loading="lazy">
+                            <div class="gallery-overlay">
+                                <span class="gallery-category-tag">Armada &amp; Logistik</span>
+                                <h3 class="gallery-card-title">Distribusi Karung Sekam Lintas Daerah</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foto 8 -->
+                    <div class="gallery-card" data-category="armada">
+                        <div class="gallery-img-wrapper" onclick="openLightbox(7)">
+                            <img src="images/armada-logistik-idris-jaya.jpg" alt="Armada Logistik Resmi IDRIS JAYA Truk Engkel" loading="lazy">
+                            <div class="gallery-overlay">
+                                <span class="gallery-category-tag">Armada &amp; Logistik</span>
+                                <h3 class="gallery-card-title">Kesiapan Armada Truk Engkel</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MODAL LIGHTBOX / IMAGE PREVIEW -->
+        <div class="lightbox" id="lightboxModal" onclick="closeLightboxOnBg(event)">
+            <button class="lightbox-close" onclick="closeLightbox()" aria-label="Tutup Preview">&times;</button>
+            <button class="lightbox-nav lightbox-prev" onclick="changeLightboxImage(-1)" aria-label="Foto Sebelumnya">&#10094;</button>
+            <div class="lightbox-content">
+                <img id="lightboxImg" src="" alt="Preview Foto Galeri">
+                <div class="lightbox-caption" id="lightboxCaption"></div>
+            </div>
+            <button class="lightbox-nav lightbox-next" onclick="changeLightboxImage(1)" aria-label="Foto Selanjutnya">&#10095;</button>
+        </div>
+
+        <!-- ==========================================================================
+             KONTAK & LOKASI
+             ========================================================================== -->
+        <section class="section section-bg" id="kontak">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Hubungi Kami</div>
+                    <h2 class="section-title">Informasi Operasional &amp; Lokasi</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg class="icon-svg" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Alamat Operasional</h4>
+                                <p>Gentawangi RT 05 RW 03, Kecamatan Jatilawang, Kabupaten Banyumas, Jawa Tengah 53174</p>
+                                <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 0.25rem;">(Alamat kediaman pemilik yang digunakan sebagai pusat koordinasi operasional &amp; administrasi usaha)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Telepon / WhatsApp</h4>
+                                <p><a href="https://wa.me/6282226378960" target="_blank" rel="noopener">+62 822-2637-8960 (Pak Idris)</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Jam Operasional</h4>
+                                <p>Senin – Sabtu (24 Jam Ready Stok &amp; Pengiriman)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Jangkauan Pengiriman</h4>
+                                <p>Banyumas, Purwokerto, Cilacap, Seluruh Jawa Tengah &amp; Pengiriman Lintas Pulau (Nasional)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg class="icon-svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Media Sosial Official</h4>
+                                <p><a href="https://facebook.com" target="_blank" rel="noopener">Facebook: Idris Jaya Merang</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="owner-box">
+                            <h3>Komitmen Pelayanan Direct Owner</h3>
+                            <p>Hubungi Pak Idris secara langsung untuk konsultasi kebutuhan biomassa industri Anda, sampel bahan, negosiasi harga kontrak, serta pengondisian jadwal pengiriman armada logistik.</p>
+                        </div>
+
+                        <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20mau%20konsultasi%20stok%20biomassa" class="btn btn-wa" style="width: 100%;" target="_blank" rel="noopener">
+                            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>Konsultasi Langsung via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <div class="floating-wa-container">
+        <a href="https://wa.me/6282226378960?text=Halo%20Pak%20Idris,%20saya%20mau%20tanya%20stok%20dan%20harga" class="floating-wa-btn" target="_blank" rel="noopener" aria-label="Hubungi Pak Idris via WhatsApp">
+            <span style="position:relative; display:inline-flex;">
+                <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span class="wa-pulse-dot"></span>
+            </span>
+            <span>Hubungi Pak Idris</span>
+        </a>
+    </div>
+
+    <!-- ==========================================================================
+         FOOTER
+         ========================================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-name">IDRIS JAYA</div>
+                    <div class="brand-tagline">Supplier Biomassa, Sekam &amp; Pasir Silika</div>
+                    <p class="footer-desc">Mitra terpercaya pasokan biomassa dan material industri dari Banyumas untuk kebutuhan lokal hingga industri nasional.</p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Navigasi</h4>
+                    <div class="footer-links">
+                        <a href="#keunggulan">Keunggulan</a>
+                        <a href="#produk">Katalog Produk</a>
+                        <a href="#mutu">Standar Mutu</a>
+                        <a href="#galeri">Galeri</a>
+                        <a href="#kontak">Kontak</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Hubungi Kami</h4>
+                    <div class="footer-links">
+                        <a href="https://wa.me/6282226378960" target="_blank" rel="noopener">
+                            <svg class="icon-svg" style="width:16px; height:16px;" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>+62 822-2637-8960</span>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener">
+                            <svg class="icon-svg" style="width:16px; height:16px;" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                            <span>Facebook: Idris Jaya Merang</span>
+                        </a>
+                        <span>Jatilawang, Banyumas, Jawa Tengah</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; 2026 IDRIS JAYA. Hak Cipta Dilindungi Undang-Undang.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================================================
+         JAVASCRIPT
+         ========================================================================== -->
+    <script>
+        // Toggle Menu Mobile
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const navLinks = document.getElementById('navLinks');
+
+        if (hamburgerBtn && navLinks) {
+            hamburgerBtn.addEventListener('click', () => {
+                hamburgerBtn.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+        }
+
+        function closeMenu() {
+            if (navLinks && hamburgerBtn) {
+                hamburgerBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        }
+
+        // ==========================================================================
+        // GALERI FILTER & LIGHTBOX PREVIEW LOGIC
+        // ==========================================================================
+        const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+        const galleryCards = document.querySelectorAll('.gallery-card');
+        
+        // Data Foto Galeri
+        const galleryData = [
+            { src: 'images/wood-pellet-jumbo-bag.jpg', title: 'Wood Pellet Kemasan Jumbo Bag' },
+            { src: 'images/uji-kadar-air-digital.jpg', title: 'Pengujian Kadar Air Digital (Smart Sensor Moisture Meter)' },
+            { src: 'images/truk-di-pabrik.jpg', title: 'Pengiriman Biomassa Skala Pabrik Industri' },
+            { src: 'images/tempat-penampungan-sekam.jpg', title: 'Penampungan Sekam & Merang Padi' },
+            { src: 'images/stok-serbuk-kayu-konveyor.jpg', title: 'Proses Pengolahan Serbuk Kayu dengan Konveyor' },
+            { src: 'images/pengiriman-limbah-kayu-veneer.jpg', title: 'Muatan Limbah Kayu Veneer & Wood Chip' },
+            { src: 'images/armada-truk-muatan-penuh.jpg', title: 'Distribusi Karung Sekam Lintas Daerah' },
+            { src: 'images/armada-logistik-idris-jaya.jpg', title: 'Kesiapan Armada Logistik Truk Engkel IDRIS JAYA' }
+        ];
+
+        let currentLightboxIndex = 0;
+
+        // Filter Kategori Galeri
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                galleryCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.classList.remove('hide');
+                    } else {
+                        card.classList.add('hide');
+                    }
+                });
+            });
+        });
+
+        // Lightbox Functions
+        function openLightbox(index) {
+            currentLightboxIndex = index;
+            const modal = document.getElementById('lightboxModal');
+            const img = document.getElementById('lightboxImg');
+            const caption = document.getElementById('lightboxCaption');
+
+            img.src = galleryData[index].src;
+            caption.textContent = galleryData[index].title;
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Kunci scroll background
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('lightboxModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto'; // Buka scroll background
+        }
+
+        function closeLightboxOnBg(e) {
+            if (e.target.classList.contains('lightbox')) {
+                closeLightbox();
+            }
+        }
+
+        function changeLightboxImage(direction) {
+            currentLightboxIndex += direction;
+            if (currentLightboxIndex < 0) {
+                currentLightboxIndex = galleryData.length - 1;
+            } else if (currentLightboxIndex >= galleryData.length) {
+                currentLightboxIndex = 0;
+            }
+            openLightbox(currentLightboxIndex);
+        }
+
+        // Navigasi Keyboard untuk Lightbox (Esc, Left, Right)
+        document.addEventListener('keydown', (e) => {
+            const modal = document.getElementById('lightboxModal');
+            if (modal.classList.contains('active')) {
+                if (e.key === 'Escape') closeLightbox();
+                if (e.key === 'ArrowLeft') changeLightboxImage(-1);
+                if (e.key === 'ArrowRight') changeLightboxImage(1);
+            }
+        });
+    </script>
+</body>
+</html>
