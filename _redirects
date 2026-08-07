@@ -1,2 +1,2 @@
 # Force HTTPS
-http://idrisjaya.netlify.app/* https://idrisjaya.netlify.app/:splat 301!
+http://idrisjaya.com/* https://idrisjaya.com/:splat 301!
