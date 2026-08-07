@@ -1,2 +1,8 @@
-# Force HTTPS
+# 1. Redirect subdomain Netlify lama ke Domain Custom Utama (301 Permanent)
+https://idrisjaya.netlify.app/* https://idrisjaya.com/:splat 301!
+
+# 2. Redirect www ke Non-www
+https://www.idrisjaya.com/* https://idrisjaya.com/:splat 301!
+
+# 3. Force HTTP ke HTTPS
 http://idrisjaya.com/* https://idrisjaya.com/:splat 301!
